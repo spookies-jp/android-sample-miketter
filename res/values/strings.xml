@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">まいくったー</string>
+    <string name="login">ろぐいん</string>
+    <string name="logout">ろぐあうと</string>
+    <string name="select_dialog_title">もしかして</string>
+    <string name="tweet_dialog_title">つぶやく</string>
+    <string name="title_mic_message">Are you talking to me?</string>
+    <string name="error">えらー</string>
+    <string name="consumer_key">igAAjptpRi7wFyYtShZ1YA</string>
+    <string name="consumer_secret">w8sJA4JpYXydsEblLtoQeaXi8m7nTT5yAH7gTx91g</string>
+    <string name="preference_key_token">token</string>
+    <string name="preference_key_token_secret">token_secret</string>
+    <string name="tweet_button_text">つぶやく</string>
+    <string name="next_button_text">続けて入力</string>
+</resources>

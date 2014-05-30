@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:baselineAligned="false" android:orientation="horizontal"
+	android:gravity="center_vertical" android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+
+	<ImageView android:src="@drawable/icon" android:id="@+id/icon"
+		android:layout_width="42dp" android:layout_height="42dp"
+		android:layout_marginRight="20dp" android:layout_marginLeft="20dp">
+	</ImageView>
+
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:orientation="vertical" android:layout_weight="1">
+
+		<TextView android:id="@+id/name" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="left"
+			android:textSize="14sp" android:textColor="#000000">
+		</TextView>
+
+		<TextView android:id="@+id/tweet" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="left"
+			android:textSize="16sp" android:textColor="#000000">
+		</TextView>
+
+		<TextView android:id="@+id/time" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#9fa0a0"></TextView>
+
+	</LinearLayout>
+
+</LinearLayout>
